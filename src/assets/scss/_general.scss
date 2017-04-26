@@ -1,0 +1,35 @@
+footer{
+  background-color:$medium-gray;
+  p{margin:0.5rem 0;}}
+a:hover{color:#21577f}
+.top-bar{
+    font-size:1.1rem;
+    a{color:$light-gray;}
+  ul {background-color:transparent;}
+}
+
+.shrink{
+  transition: all 1s ease-in-out;
+
+  .top-bar-left img{
+  transition: all 1s ease-in-out;
+  height: 2.3rem;;
+  }}
+.base{
+  transition: all 1s ease-in-out;
+  letter-spacing: 1px;
+  .menu > li > a {
+      transition: all 1s ease-in-out;
+      padding-top: 1.3rem;
+  }
+  .top-bar-left img{
+  transition: all 1s ease-in-out;
+  height: 3.5rem;
+  }
+}
+.tonteria{
+  font-size:1.1rem;
+  a{color:$light-gray; letter-spacing: 1px;
+  &:hover{color:$white; font-weight: 500;}}
+  ul {background-color:transparent;}
+  }
